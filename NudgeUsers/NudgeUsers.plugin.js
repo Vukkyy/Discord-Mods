@@ -2,7 +2,7 @@
  * @name NudgeUsers
  * @author Vukky
  * @description Nudge users, like in the old days.
- * @version 1.0.0
+ * @version 1.0.1
  * @invite HfBAtQ2afz
  * @authorId 708333380525228082
  * @authorLink https://twitter.com/vukkied
@@ -15,7 +15,7 @@ class NudgeUsers {
     getName() {return "NudgeUsers";}
     getAuthor() {return "Vukky";}
     getDescription() {return "Nudge users, like in the old days.";}
-    getVersion() {return "1.0.0";}
+    getVersion() {return "1.0.1";}
 
     start() {
         if (!global.ZeresPluginLibrary) {
@@ -66,9 +66,9 @@ class NudgeUsers {
             if (message.guild_id != undefined) return;
             if (message.content == "nudge" || message.content == "_nudge_") {
                 this.nudgeSfx.play();
-                document.querySelector(".app-2rEoOp").classList.add("getNudged");
+                document.querySelector("#app-mount").classList.add("getNudged");
                 setTimeout(() => {
-                    document.querySelector(".app-2rEoOp").classList.remove("getNudged");
+                    document.querySelector("#app-mount").classList.remove("getNudged");
                 }, 600);
             }
         } catch (e) {
