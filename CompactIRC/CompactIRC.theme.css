@@ -1,0 +1,73 @@
+/**
+ * @name CompactIRC
+ * @author Vukky
+ * @version 1.0.0
+ * @description Aims to make Compact Mode feel more like IRC.
+ * @source https://github.com/Vukkyy/Discord-Mods
+ * @updateUrl https://raw.githubusercontent.com/Vukkyy/Discord-Mods/main/CompactIRC/CompactIRC.theme.css
+ * @invite HfBAtQ2afz
+ */
+
+.timestampVisibleOnHover-2bQeI4 {
+    opacity: 1;
+}
+
+.username-1A8OIy::before {
+    content: "<";
+}
+
+.username-1A8OIy::after {
+    content: ">";
+}
+
+.messageContent-2qWWxC .compact-2zYMSo .anchor-3Z-8Bb::before {
+    content: "<";
+}
+
+.messageContent-2qWWxC .compact-2zYMSo .anchor-3Z-8Bb::after {
+    content: ">";
+}
+
+.typing-2GQL18 strong::before {
+    content: "<";
+}
+
+.typing-2GQL18 strong::after {
+    content: ">";
+}
+
+.messageContent-2qWWxC .compact-2zYMSo {
+    margin-left: -6ch;
+}
+
+.messageContent-2qWWxC .compact-2zYMSo .iconContainer-3GkGRf {
+    display: none;
+}
+
+.messageContent-2qWWxC .compact-2zYMSo .timestamp-3ZCmNB {
+    display: none;
+}
+
+.botTagCompact-29bCci {
+    display: none;
+}
+
+.botTagRegular-2HEhHi {
+    display: none;
+}
+
+.typing-2GQL18 .ellipsis-19qdx6 {
+    display: none;
+}
+
+.members-1998pB .avatar-3uk_u9 {
+    display: none;
+}
+
+.members-1998pB .membersGroup-v9BXpm {
+    display: none;
+}
+
+.welcomeCTA-2orRfU {
+    display: none;
+}
